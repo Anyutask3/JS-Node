@@ -1,0 +1,11 @@
+{
+  "name": "ani_sargsyan",
+  "version": "1.0.0",
+  "description": "Learn Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "Testik"
+  },
+  "author": "ani_sargsyan",
+  "license": "ISC"
+}
