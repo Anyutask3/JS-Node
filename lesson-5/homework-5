@@ -90,11 +90,13 @@ persons = [
     }
   ];
   
-  function maleOrFemail(gender, firstname, lastname){
-    if(gender == 'female'){
-        return ('I would like to know more about ' + firstname + ' ' + lastname);
+  function maleOrFemail(persons){
+    if(persons.gender === 'female'){
+        return ('I would like to know more about ' + persons.firstname + ' ' + persons.lastname);
     } else {
-        return (firstname + ' ' + lastname + ' mast be a good man.');
+        return (persons.firstname + ' ' + persons.lastname + ' mast be a good man.');
     }
   };
-  console.log(maleOrFemail(persons[1].gender, persons[1].firstname, persons[1].lastname));
+  console.log(maleOrFemail(persons[0]));
+  console.log(maleOrFemail(persons[1]));
+  console.log(maleOrFemail(persons[2]));
