@@ -67,10 +67,10 @@ persons = [
    function metFriend(firstName, lastName){
     // firstName = persons[0].firstname;
     // lastName = persons[0].lastname;
-    return(lala + firstName + " " + lastName);
+    return('I just met ' + firstName + " " + lastName);
    };
 
-console.log(metFriend(persons[0].firstname, persons[0].lastname));
+console.log(metFriend(persons[1].firstname, persons[1].lastname));
 
 
 

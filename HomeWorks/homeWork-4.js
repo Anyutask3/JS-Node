@@ -11,10 +11,12 @@ a = {
 const c = [11, 32, 'Some word', {
     type: 'dog',
     name: 'Archuk'
-}];
+} 
+];
 
 a = c,
 c.age = 3,
+console.log('C = ' + c);
 a.surName = 'Karapetyan';
 
 let d = false;
@@ -30,7 +32,7 @@ console.log(a);
 //     age: 3,
 //     surName: 'Karapetyan'
 //   ]
-console.log(b); // 5
+ console.log(b); // 5
 
 console.log(c);
 // [
@@ -41,8 +43,8 @@ console.log(c);
 //     age: 3,
 //     surName: 'Karapetyan'
 //   ]
-console.log(d); // undefined
-console.log(e); // undefined
+// console.log(d); // undefined
+// console.log(e); // undefined
 
 
 // 2// ------------
