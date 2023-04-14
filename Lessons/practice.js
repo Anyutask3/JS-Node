@@ -54,11 +54,11 @@ function findByDayNumber(arr, num){
     for(let i = 0; i < arr.length; i++) {
         if(arr[i].days === num) {
             console.log(arr[i].name + ' has ' + arr[i].days + ' days.');
-            foundItem = arr[i];
+            foundItem = true;
             // return arr[i].name + ' has ' + arr[i].days + ' days.';
         } 
     } 
-    if(foundItem === undefined) {
+    if(foundItem === false) {
         console.log( 'There is no such month or day');
     }
 }
