@@ -43,22 +43,22 @@ const persons = [
     }    
 };
 
-myAge(persons, 27);
+// myAge(persons, 27);
 
 // Task 3 //
 
   // Create a function that will return sum (gumar) of all the numbers in array
   // Please, receive the array of numbers as an argument.
-  const numbers = [1, 4, 33, 7, 55, 66, 8, 2, -100, 57];
+  const numbers = [1, 4, 33, 7, 55, 66, 8, 2, 100, 57];
 
   function arrSum(arr){
     let sum = 0;
     for (let i = 0; i < arr.length; i++) {
-        sum += arr[i];
+        sum = sum + arr[i];
     }
-     return sum; // harcnel anahitin xi chi ashxatum aranc console.log
+     return sum; // harcnel Anahitin xi chi ashxatum aranc console.log
   };
-//   console.log(arrSum(numbers));
+// console.warn(arrSum(numbers));
 
 // Task 4 //
 // Create a function that will check it the student has passed the exam or not
@@ -113,3 +113,12 @@ function examPassedOrFailed(arr){
     } 
 };
 // examPassedOrFailed(students);
+function studenstsStatusList(arr){
+    let status = 0;
+    for(let i = 0; i < arr.length; i++){
+        if(arr[i].passed === true){
+            status = status + 1
+        }
+
+    }
+}
