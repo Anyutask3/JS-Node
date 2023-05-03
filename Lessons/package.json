@@ -1,0 +1,25 @@
+{
+  "name": "js-lesson",
+  "version": "1.0.0",
+  "description": "Learning JS",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "dayjs": "^1.11.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anyutask3/JS-Node.git"
+  },
+  "author": "Ani Sargsyan",
+  "license": "ISC",
+ 
+  "bugs": {
+    "url": "https://github.com/anyutask3/JS-Node/issues"
+  },
+  "homepage": "https://github.com/anyutask3/JS-Node#readme"
+}
