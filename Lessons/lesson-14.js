@@ -3,7 +3,7 @@ let str = "Hello world!";
 
 // console.log(str.includes('world')); //'true'
 
-// console.log(str.indexOf('e')); 
+ console.log(str.indexOf('k')); //index@ vortex e gtnvum
 
 //loUppercase
 //LoLowercase
@@ -30,4 +30,4 @@ function lastChar(str5){
   return str5.charAt(str.length-1);
  
 }
-console.log(lastChar("Could you tell me about the job in more"));
+// console.log(lastChar("Could you tell me about the job in more"));
