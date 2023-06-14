@@ -1,6 +1,6 @@
 // Array.isArray
 
-const myArr = [1, 3, 5, 7, 9, 8, 5];
+const myArr = [88, 3, 5, 7, 9, 8, 5];
 // console.log(typeof myArr); //veradarcnum e obj but it is arr
 // console.log(Array.isArray(myArr)); //true, stugum e vor arrey e
 
@@ -19,7 +19,7 @@ const myShift = myArr.shift();
 // console.log(myArr); // veradarcnum e jnjac arajin andam@
 
 const myUnShift = myArr.unshift('Ani123');
-// console.log(myShift); //veradarcnum e lenght@
+console.log(myShift); //veradarcnum e lenght@
 // console.log(myArr); // veradarcnum e dimacic avelacrac array
 
 // const mySort = myArr.sort(); // sort e anum aybenakan kayqov
