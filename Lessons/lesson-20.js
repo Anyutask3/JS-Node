@@ -48,3 +48,14 @@ function newPersons(e){
   });
 }
  console.log(newPersons(persons));
+
+ function menuItemTopping(){
+  const myValue = Object.values(menuItem.batters.batter);
+  const myText = 'batter contains ';
+  for(let i = 0; i < myValue.length; i++){
+      const currentObj = myValue[i];
+      const currentObjValue = currentObj.type;
+      console.log(`${myText} ${currentObjValue} `);
+  }
+}
+console.log(menuItemTopping());

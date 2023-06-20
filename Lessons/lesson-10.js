@@ -3,4 +3,4 @@ function GiveSquare(start, end) {
         console.log(Mat.pow(i, 2));
     }
 };
-GiveSquare(14,50);
+GiveSquare(5,2); //return 25

@@ -80,13 +80,7 @@ function filterItems(arr, query) {
   console.log(filterItems(persons, "female"));
 
 
-  function newPersons(e){
-    return e.map((item) => {
-      item.firstname + " " + item.lastname;
-      return item;
-    });
-  }
-   console.log(persons);
+  
   
 
   
