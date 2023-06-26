@@ -28,15 +28,18 @@ const menuItem = {
 
 
 function menuItemBetter(){
-    const myValue = Object.values(menuItem.batters.batter);
+    const batterValues = Object.values(menuItem.batters.batter);
+    const toppingValues = Object.values(menuItem.topping);
     const myText = 'Batter contains ';
-    for(let i = 0; i < myValue.length; i++){
-        const currentObj = myValue[i];
-        console.log (currentObj.type);
-        // console.log(`${myText} ${currentObjValue} `);
-    }
+    // for(let i = 0; i < batterValues.length; i++){
+    //     const currentObj = batterValues[i];
+    //     console.log (currentObj.type);
+    //     console.log(`${myText} ${currentObjValue} `);
+    // }
+    console.log(batterValues);
+    console.log(toppingValues);
 }
-// console.log(menuItemBetter());
+console.log(menuItemBetter());
 
 
 
@@ -64,7 +67,7 @@ const miavorner = {...myObj1};  //der ktpi myObj age = 12
 myObj1.age =13;
 
 const miavor = {...myObj1, ...myObj2, ...{selary: 3000}};
-console.log(miavor); 
+// console.log(miavor); 
 //Patasxan
     // {
     //   id: 1,
